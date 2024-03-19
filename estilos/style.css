@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Paleta de cores 
+Azul: #0000DD
+Amarelo: #FACC00
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2f2f83;
+}
+
+main > section {
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.521);
+    height: 515px;
+    width: 250px;
+    background-color: white;
+}
+
+section#login > div#imagem {
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+    background: #2e2e88 url(../imagens/pexels-vitor-lopes.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+section h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 0.8em;
+    text-align: center;
+    text-align: justify;
+    margin: 10px;
+}
